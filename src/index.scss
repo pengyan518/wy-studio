@@ -1,4 +1,7 @@
 @use "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
 @import './assets/styles/normalize.css';
 /*@import './assets/styles/custom-media.css';*/
 /*@import './assets/styles/utilities.css';*/

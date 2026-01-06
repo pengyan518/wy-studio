@@ -11,22 +11,21 @@ const updateTheme = (isDarkEnabled: boolean) => {
   // const styles = window.getComputedStyle(document.body)
   // const black = styles.getPropertyValue('--black')
   // const white = styles.getPropertyValue('--white')
-  // // eslint-disable-next-line no-undef
-  // const docEl = document.documentElement
+  // eslint-disable-next-line no-undef
+  const docEl = document.documentElement
 
-  const htmlElement = document.querySelector('html')
   if (isDarkEnabled) {
     // docEl.style.setProperty('--background', black)
     // docEl.style.setProperty('--foreground', white)
     // eslint-disable-next-line no-undef
-    htmlElement?.classList.add('dark')
-    htmlElement?.classList.remove('light')
+    docEl.classList.add('dark')
+    docEl.classList.remove('light')
   } else {
     // docEl.style.setProperty('--background', white)
     // docEl.style.setProperty('--foreground', black)
     // eslint-disable-next-line no-undef
-    htmlElement?.classList.remove('dark')
-    htmlElement?.classList.add('light')
+    docEl.classList.remove('dark')
+    docEl.classList.add('light')
   }
 }
 

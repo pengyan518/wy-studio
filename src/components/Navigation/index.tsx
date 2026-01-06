@@ -35,7 +35,7 @@ const Navigation: React.FC = memo(() => {
     <>
       <Box className="col-span-3 lg:col-san-4 md:px-6 relative block dark:text-white">
         <div className="flex justify-between items-center pb-4">
-          <header className={`text-lg font-black`}>PENG YAN</header>
+          <header className={`text-lg font-black`}>W&Y STUDIO</header>
 
           <div className="flex md:hidden">
             <button
@@ -102,7 +102,7 @@ const Navigation: React.FC = memo(() => {
           </div>
         )}
 
-        <div className="fixed bottom-5 hidden md:block">
+        <div className="!fixed bottom-5 hidden md:block">
           <Footer />
         </div>
       </Box>
