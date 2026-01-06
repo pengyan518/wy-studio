@@ -1,0 +1,21 @@
+@use "tailwindcss";
+@import './assets/styles/normalize.css';
+/*@import './assets/styles/custom-media.css';*/
+/*@import './assets/styles/utilities.css';*/
+/*@import './assets/styles/fonts.css';*/
+@import './assets/styles/overlay.css';
+@import './assets/styles/main.css';
+@import './assets/styles/bread.css';
+
+
+body {
+  margin: 0;
+  /*@apply font-sans;*/
+  font-family: itc-avant-garde-gothic-pro, ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+  @apply text-slate-700;
+  @apply antialiased;
+  @apply subpixel-antialiased;
+  letter-spacing: 0.08em;
+}

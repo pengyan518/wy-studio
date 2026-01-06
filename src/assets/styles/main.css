@@ -1,0 +1,53 @@
+:root {
+  --light-grey: #a1a8ae;
+  --light-gray: #a1a8ae;
+  --gray-bg: #ebebeb;
+  --brand-primary: #1da1f2;
+  --brand-curent: #ffe4a7;
+  --brand-curent-dark: #71325e;
+  --brand-curent-bg: #753363;
+  --hover-text: #0278bd;
+  --oriange-bg: #de8831;
+  --light-yellow: #fde3a6;
+  --light-yellow2: #f4d47c;
+  --aside-width: 640px;
+  --font-proxima-nova: 'proxima-nova', sans-serif;
+  --proxima-nova: 'proxima-nova', sans-serif;
+  --font-warnock: 'warnock-pro', serif;
+  --font-open-sans-condensed: open-sans-condensed, sans-serif;
+  --font-roboto-condensed: 'Roboto Condensed', sans-serif;
+  --font-domaine-display-condensed: 'Domaine Display Condensed Test';
+  --font-georgia: Georgia, 'Times New Roman', Times, serif;
+  --font-tangier: 'DM Serif Display', serif;
+  --font-nm: 'nimbus_sans_nov_t_ot_mediumRg', sans-serif;
+  --font-nmbc: 'nimbus_sans_nov_t_ot_condenBd', Arial, Verdana, sans-serif;
+  --top-container-width: 80%;
+  --top-container-tablet-width: 95%;
+  --logo-top-margin: 3.5vw;
+  --padding-v: 12px;
+}
+.MuiPaper-root {
+  @apply dark:text-white dark:bg-gray-800;
+}
+.MuiDrawer-paper {
+  @apply w-full xl:w-9/12;
+}
+.svgIcon {
+  width: 14px !important;
+  height: 14px !important;
+}
+.lazy-load-image-background {
+  @apply absolute object-cover inset-0 w-full h-full;
+  display: block !important;
+}
+.MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+/*@media (min-width: 768px) {*/
+/*  .topSearch__bar {*/
+/*    grid-column-start: 1;*/
+/*    grid-column-end: 14;*/
+/*  }*/
+/*}*/
+
+

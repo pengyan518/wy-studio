@@ -1,0 +1,95 @@
+@custom-media --mobile only screen and (width <=767px);
+
+@custom-media --desk only screen and (width >=768px);
+
+@custom-media --small-viewport only screen and (width > 320px) and (width < 768px);
+
+@custom-media --xs-viewport only screen and (320px<= width <=360px);
+
+@custom-media --vp-320-360 only screen and (320px<= width <=360px);
+
+@custom-media --lg-phone only screen and (360px< width <=575px);
+
+@custom-media --vp-361-575 only screen and (360px< width <=575px);
+
+@custom-media --vp-361-413 only screen and (360px< width <=413px);
+
+@custom-media --vp-414-575 only screen and (413px< width <=575px);
+
+@custom-media --smvp (width < 1024px);
+@custom-media --lgvp (width >= 1024px);
+
+@custom-media --vp-576-767 (width >= 576px) and (width < 768px);
+
+@custom-media --phone only screen and (width <=575px);
+
+@custom-media --ipadpro-down (width < 1280px);
+
+@custom-media --ipadpro-up-down (768px<= width <= 1280px);
+
+@custom-media --ipad-768-1023 (768px<= width <= 1023px);
+
+@custom-media --ipad-768-1279 (768px<= width < 1280px);
+
+@custom-media --vp891-1023 (width >= 891px) and (width <= 1023px);
+
+@custom-media --ipad-1024-1280 (1024px<= width <= 1280px);
+
+@custom-media --vp-1024-1280 (1024px<= width <= 1280px);
+
+@custom-media --no-ipadpro-up (width >= 1281px);
+
+@custom-media --ipadpro-up (width >= 1280px);
+
+@custom-media --sc-1281-1500 (1281px<= width <= 1500px);
+
+@custom-media --sc-1501-1800 only screen and (width >= 1501px) and (width <= 1800px);
+
+@custom-media --sc-1800-up only screen and (width >= 1801px);
+
+@custom-media --vp-960-up (width >= 960px);
+
+@custom-media --vp-1024-up (width >= 1024px);
+
+@custom-media --vp-1500-up (width >= 1500px);
+
+@custom-media --vp-768-1007 (768px<= width <= 1007px);
+
+@custom-media --h750down (height >= 580px) and (height <= 750px);
+
+@custom-media --w1260up (width >= 1260px);
+
+@custom-media --vph-1260x600 (--w1260up) and (--h750down);
+
+@custom-media --ar-118-130 (aspect-ratio >= 1.18) and (aspect-ratio <=1.3);
+
+/* check out media queries ranges for a better syntax !*/
+
+/* or coupled with custom media queries */
+@custom-media --only-macbook-sm-screen only screen and (aspect-ratio >= 2/1) and (aspect-ratio <=9/1);
+
+@custom-media --vp768-890 (width >= 768px) and (width <= 890px);
+
+@custom-media --vp768-940 (width >= 768px) and (width <= 940px);
+
+@custom-media --vp891-1100 (width >= 891px) and (width <= 1100px);
+
+@custom-media --vp1101-1400 (width >= 1101px) and (width <= 1400px);
+
+@custom-media --portrait-viewport only screen and (aspect-ratio <= 1/1) and (width >=768px);
+
+@custom-media --md-viewport only screen and (width >= 768px) and (width <= 1024px);
+
+@custom-media --medium-viewport only screen and (width >= 768px) and (width <= 1200px);
+
+@custom-media --large-viewport only screen and (width >= 1201px) and (width <= 1250px);
+
+@custom-media --xl-viewport only screen and (width >= 1251px) and (width <= 1500px);
+
+@custom-media --xxl-viewport only screen and (width >= 1501px) and (width <= 1800px);
+
+@custom-media --xxxl-viewport only screen and (width >= 1801px);
+
+@media (--small-viewport) {
+  /* styles for small viewport */
+}

@@ -1,0 +1,381 @@
+:root {
+    --mobile: 767px;
+    --desk: 768px;
+    --light-grey: #a1a8ae;
+    --gray-bg: #ebebeb;
+    --grey-bd: #bfbfbf;
+    --light-yellow: #fff19f;
+    --brand-primary: #6744a0;
+    --hover-text: #6744a0;
+    --oriange-bg: #d77000;
+    --gap-height: 72px;
+    --gap-height-mobile: 45px;
+    --svg-width: 600px;
+    --svg-height: calc(var(--svg-width) / 1.3);
+    --corner: 18px;
+    --space: 35px;
+    --bdra: {
+        border-radius: var(--corner);
+    }
+    --bdra12: {
+        border-radius: 12px;
+    }
+    --bdra15: {
+        border-radius: 15px;
+    }
+    --bdra20: {
+        border-radius: 20px;
+    }
+    --bdra25: {
+        border-radius: 25px;
+    }
+    --uppercase: {
+        text-transform: uppercase;
+    }
+    --font-proxima-nova: 'proxima-nova';
+    --font-warnock: 'warnock-pro';
+    --font-open-sans-condensed: 'Open Sans Condensed', sans-serif;
+    --font-roboto-condensed: 'Roboto Condensed', sans-serif;
+    --font-geogia: Georgia, 'Times New Roman', Times, serif;
+    --icon-block: {
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    --shadow: {
+        box-shadow: 0 0 5px color(#000 a(60%));
+    }
+    --shadowMobile: {
+        box-shadow: 0 0 5px color(#000 a(15%));
+    }
+}
+
+.a-center {
+    text-align: center;
+}
+
+.al-center {
+    align-items: center !important;
+}
+
+.al-end {
+    align-items: flex-end !important;
+}
+
+.hand {
+    cursor: pointer;
+}
+.d-f {
+  display: flex;
+}
+.no-display {
+    display: none;
+}
+
+.vspace10,
+.vspace20,
+.vspace40,
+.vspace5 {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.vspace5 {
+    height: 5px;
+}
+
+.vspace10 {
+    height: 10px;
+}
+
+.vspace20 {
+    height: 20px;
+}
+
+.vspace40 {
+    height: 40px;
+}
+
+.hidden-xs {
+    @media (--mobile) {
+        display: none !important;
+    }
+}
+
+.visible-xs {
+    @media (--desk) {
+        display: none !important;
+    }
+}
+
+.mobile-br {
+    @media (--mobile) {
+        display: block;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.spacer {
+    width: 100%;
+    height: 1px;
+}
+
+.trigger {
+    width: 100%;
+    height: 1px;
+    display: block;
+}
+
+.parallax {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: block;
+}
+
+.cf:after,
+.cf:before {
+    content: ' ';
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+.bold-600 {
+    font-weight: 600;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+
+.Link {
+    transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.Link--primary.is-active,
+.supports-hover .Link--primary:hover {
+    color: #252525;
+}
+
+.Link--secondary.is-active,
+.supports-hover .Link--secondary:hover {
+    color: #5c5c5c;
+}
+
+.Link--underline {
+    position: relative;
+    display: inline-block;
+}
+
+.Link--underline::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: -1px;
+    background: currentColor;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+@media (-moz-touch-enabled: 0), (hover: hover) {
+    .Link--underline:hover::before {
+        -webkit-transform: scale(0, 1);
+        transform: scale(0, 1);
+    }
+}
+
+.Link--underlineShort::before {
+    width: calc(100% - 0.2em);
+}
+
+.Link--underlineNative {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.MainHeading {
+    /*font-weight: 600;*/
+    font-size: 44px;
+    line-height: 1.1em;
+    font-style: normal;
+    transition: color 0.2s ease-in-out;
+    /*letter-spacing: 0.03em;*/
+    /*text-transform: capitalize;*/
+    @media (--mobile) {
+        font-size: 35px;
+    }
+}
+
+.MainHeading_Extra {
+    /*font-weight: 600;*/
+    font-size: 65px;
+    line-height: 1.1em;
+    font-style: normal;
+    transition: color 0.2s ease-in-out;
+    /*letter-spacing: 0.03em;*/
+    /* text-transform: capitalize;*/
+    @media (--mobile) {
+        font-size: 40px;
+    }
+}
+
+.Paragraph p {
+    margin-bottom: 25px;
+}
+
+.mt-1 {
+    margin-top: 1px !important;
+}
+
+.mt-5 {
+    margin-top: 5px !important;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mt-15 {
+    margin-top: 15px !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.mt-5vw {
+    margin-top: 5vw !important;
+}
+
+.mb-1 {
+    margin-bottom: 1px !important;
+}
+
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.mb-15 {
+    margin-bottom: 15px !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+.ml-2vw {
+    margin-left: 2vw;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.p-ab,
+.ps-a {
+    position: absolute;
+}
+
+.p-r,
+.ps-r {
+    position: relative;
+}
+.fz24 {
+  font-size: 24px;
+}
+.fz18 {
+  font-size: 18px;
+}
+.fz15 {
+  font-size: 15px;
+}
+.fz100p {
+  font-size: 100%;
+}
+
+.fz1rem {
+  font-size: 1rem;
+}
+.nm-font {
+    font-family: var(--font-nm) !important;
+}
+
+.nmbc-font {
+    font-family: var(--font-nmbc) !important;
+}
+
+.Tapr--Font {
+    font-family: var(--font-ta-pr) !important;
+}
+
+.bold {
+    font-weight: 700 !important;
+}
+
+.black {
+    color: #000 !important;
+}
+
+.Proxima-Font {
+    font-family: var(--proxima-nova);
+}
+
+.Warnock--Font {
+    font-family: var(--font-warnock);
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.j-center {
+    justify-content: center !important;
+}
+
+.open-sans-c {
+    font-family: var(--font-open-sans-condensed);
+}
+
+.HiddenOnFancyBox {
+    display: none !important;
+}
+
+
+.isHidden {
+    display: none;
+}
+
+.bgCenter {
+    background-size: cover;
+    background-position: 50%;
+}

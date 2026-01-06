@@ -1,0 +1,46 @@
+.asset .overlay {
+  transition: opacity 0.3s ease-out;
+  background: var(--brand-primary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  @apply rounded;
+}
+
+.asset .icon {
+  --width: 34px;
+  position: absolute;
+  width: var(--width);
+  height: var(--width);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+}
+
+.asset:not(.asset-video) .icon {
+  transition: transform 0.2s ease-out, opacity 0.3s ease-out;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transform: scale(0.8) translate(-50%, -50%);
+}
+
+.asset:hover .icon {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  transform: scale(1) translate(-50%, -50%);
+}
+
+.asset:hover .overlay{
+  display: block;
+  opacity: 0.75;
+}
+
+.asset:active .overlay{
+  transition: opacity 0s;
+  opacity: 0.7;
+}
+
