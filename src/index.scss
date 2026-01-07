@@ -1,16 +1,16 @@
 @use "tailwindcss";
 
+
+
+@use './assets/styles/normalize';
+/*@use './assets/styles/custom-media.css';*/
+/*@use './assets/styles/utilities.css';*/
+/*@use './assets/styles/fonts.css';*/
+@use './assets/styles/overlay';
+@use './assets/styles/main';
+@use './assets/styles/bread';
+
 @variant dark (&:where(.dark, .dark *));
-
-@import './assets/styles/normalize.css';
-/*@import './assets/styles/custom-media.css';*/
-/*@import './assets/styles/utilities.css';*/
-/*@import './assets/styles/fonts.css';*/
-@import './assets/styles/overlay.css';
-@import './assets/styles/main.css';
-@import './assets/styles/bread.css';
-
-
 body {
   margin: 0;
   /*@apply font-sans;*/

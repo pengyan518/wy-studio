@@ -43,6 +43,14 @@
 .MuiBackdrop-root {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
+.MuiDrawer-paperAnchorRight {
+  .dark & {
+    background-color: var(--color-slate-900) !important;
+  }
+  .light & {
+    background-color: var(--color-white) !important;
+  }
+}
 /*@media (min-width: 768px) {*/
 /*  .topSearch__bar {*/
 /*    grid-column-start: 1;*/

@@ -42,7 +42,7 @@ export const theaters = [
     url: 'https://tickets.shenyun.com/shenyun-2026-new-york',
     description: 'Vite, Vue, pinia, Tailwind CSS, Styled-Components',
     videoEmbed:
-      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/4seoE8ICgKo?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/v9mFF9eqfDQ?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   // {
   //   id: '2',
