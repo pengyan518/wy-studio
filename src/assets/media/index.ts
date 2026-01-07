@@ -30,7 +30,7 @@ export const theaters = [
     src: img2,
     caption: 'My Own SaaS Project(Not Yet Released)',
     // url: 'https://tickets.shenyun.com/shenyun-2026-new-york',
-    description: 'Next.js, Tailwind CSS, FastAPI, PostgreSQL, Docker',
+    description: 'A full-stack application built with Next.js and FastAPI that allows users to generate images from text prompts. <br>Challenge: Handling high-latency AI generation requests (10-30s) while keeping the user engaged. •	Solution: Implemented an async workflow with real-time status updates, optimistic UI, and a robust credit system via Stripe.',
     label: 'Technology stack',
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/0aLIXvRbz8A?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -80,41 +80,41 @@ export const theaters = [
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/yzIvbGq4L94?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
-  {
-    id: '6',
-    src: mediaLibrary,
-    caption: 'Media Library Homepage',
-    description: 'React, Redux, Tailwind CSS, Styled-Components',
-    videoEmbed:
-      '<div style="padding:75.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726532589?h=28ae9710b8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording MediaLibrary"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
-  },
-  {
-    id: '7',
-    src: img0,
-    caption: 'Shen Yun 9 Characteristics Page',
-    url: 'https://www.shenyun.org/classical-chinese-dance-music-costumes-singers-and-more',
-    description: 'Webpack, Gulp, jQuery, Sass',
-    videoEmbed:
-      '<div style="padding:65.34% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726310516?h=59cc4dabeb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording of Nine Characteristics"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
-  },
-  {
-    id: '8',
-    src: theater1,
-    caption: 'Shen Yun Whats New Page',
-    description: 'React, Redux, Styled-Components',
-    url: 'https://www.shenyun.org/news-reviews',
-    videoEmbed:
-      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/g6KQbe8S0XY?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-  },
-  {
-    id: '9',
-    src: theater2,
-    caption: 'Shen Yun Our Story Page',
-    description: 'React, Postcss, Styled-Components',
-    url: 'https://www.shenyun.org/our-story',
-    videoEmbed:
-      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/3aXdv7tfcEU?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-  },
+  // {
+  //   id: '6',
+  //   src: mediaLibrary,
+  //   caption: 'Media Library Homepage',
+  //   description: 'React, Redux, Tailwind CSS, Styled-Components',
+  //   videoEmbed:
+  //     '<div style="padding:75.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726532589?h=28ae9710b8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording MediaLibrary"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+  // },
+  // {
+  //   id: '7',
+  //   src: img0,
+  //   caption: 'Shen Yun 9 Characteristics Page',
+  //   url: 'https://www.shenyun.org/classical-chinese-dance-music-costumes-singers-and-more',
+  //   description: 'Webpack, Gulp, jQuery, Sass',
+  //   videoEmbed:
+  //     '<div style="padding:65.34% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726310516?h=59cc4dabeb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording of Nine Characteristics"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+  // },
+  // {
+  //   id: '8',
+  //   src: theater1,
+  //   caption: 'Shen Yun Whats New Page',
+  //   description: 'React, Redux, Styled-Components',
+  //   url: 'https://www.shenyun.org/news-reviews',
+  //   videoEmbed:
+  //     '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/g6KQbe8S0XY?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  // },
+  // {
+  //   id: '9',
+  //   src: theater2,
+  //   caption: 'Shen Yun Our Story Page',
+  //   description: 'React, Postcss, Styled-Components',
+  //   url: 'https://www.shenyun.org/our-story',
+  //   videoEmbed:
+  //     '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/3aXdv7tfcEU?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  // },
   {
     id: '10',
     src: blscDesktop,
@@ -142,15 +142,15 @@ export const theaters = [
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/xOssXAfWk3g?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
-  {
-    id: '13',
-    src: ccd,
-    caption: 'Shen Yun Classical Chinese Dance Page(Renewed)',
-    description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
-    url: 'https://www.shenyun.org/classical-chinese-dance',
-    videoEmbed:
-      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/D-mHzmCBZs8?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-  },
+  // {
+  //   id: '13',
+  //   src: ccd,
+  //   caption: 'Shen Yun Classical Chinese Dance Page(Renewed)',
+  //   description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
+  //   url: 'https://www.shenyun.org/classical-chinese-dance',
+  //   videoEmbed:
+  //     '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/D-mHzmCBZs8?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  // },
 ]
 
 // 开发时验证 ID 唯一性

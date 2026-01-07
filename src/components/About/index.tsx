@@ -29,7 +29,7 @@ const About: React.FC = memo(() => {
           </div>
           <div className="relative grid md:grid-cols-[4fr_7fr] md:gap-x-6 xl:gap-x-6 2xl:gap-x-10 gap-y-8 auto-rows-auto mt-10 mb-40">
             <div>
-              <header className="pb-8 text-[0.875rem]">Contact</header>
+              <header className="pb-8 text-[0.875rem]">About Me</header>
               <p className="text-[0.875rem] mb-10">
                 {/* T. 845 421 2078 */}
                 <br />
@@ -40,16 +40,19 @@ const About: React.FC = memo(() => {
             </div>
             <div>
               <p className="pb-10 leading-relaxed text-[0.875rem]">
-                Before my coding life, I was an artist. I love design and details. I wanted to make a perfect website with a beautiful UI and smooth UX. That&apos;s why I became a programmer.
-              </p>
+              From Canvas to Code. <br />Before my coding life, I was an artist. I’ve always been obsessed with design, details, and aesthetics.</p>
               <p className="pb-10 leading-relaxed text-[0.875rem]">
-                {/* Seasoned and independent Front End Developer with 10 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. */}
-
-                I have fourteen years of front-end work experience, from the earliest table-based layout to the most popular CSS grid layout, from jQuery to React, Vue, from Gulp to Webpack, Vite, the growth of front-end technology has also accompanied my growth. I really want to give full play to my expertise in the front-end field because I have a pair of discerning eyes and a heart that likes to learn new technologies.
-
-              </p>
-              {/* <p className="pb-10 leading-relaxed text-base"><a target="_blank" href="https://Shenyun.com" rel="noreferrer">Shenyun.com</a> is my proudest project. The designer only gave me a very rough design. But out of my love, I expanded the details and most of the UX design, adding animations to improve the details. </p> */}
-
+              I realized that to create truly perfect digital experiences—beautiful UI combined with seamless UX—I needed to master the technology behind them. That’s why I became a programmer.</p>
+              <p className="pb-10 leading-relaxed text-[0.875rem]">
+              Today, I leverage that artistic background to bridge the gap between design and engineering. I don’t just implement designs; I enhance them. I build systems that are not only robust and scalable under the hood but also visually stunning and intuitive on the surface.</p>
+              <p className="pb-10 leading-relaxed text-[0.875rem]">
+              Based in New York City, I’m a developer who bridges the gap between robust backend logic and polished frontend experiences.</p>
+              <p className="pb-10 leading-relaxed text-[0.875rem]">
+              My journey isn’t just about writing code—it’s about solving real-world problems. Whether it’s architecting an AI image generation platform from scratch or optimizing a complex checkout flow for higher conversion, I focus on delivering value through technology.</p>
+              <p className="pb-10 leading-relaxed text-[0.875rem]">
+              I specialize in the modern web stack (Next.js, React, TypeScript) and backend services (Python FastAPI, Supabase). I believe that great software is a combination of solid engineering, intuitive design, and a deep understanding of user needs.</p>
+              <p className="pb-10 leading-relaxed text-[0.875rem]">
+              When I’m not coding, I’m exploring new tech, optimizing workflows, and finding the best coffee in NYC.</p>
             </div>
           </div>
         </div>
