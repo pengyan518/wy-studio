@@ -29,16 +29,9 @@ const About: React.FC = memo(() => {
             />
             {/* <img src="//live.staticflickr.com/65535/52183654588_280cfa8886_h.jpg" alt="" /> */}
           </div>
-          <div className="relative grid md:grid-cols-[4fr_7fr] md:gap-x-6 xl:gap-x-6 2xl:gap-x-10 gap-y-8 auto-rows-auto mt-10 mb-40">
+          <div className="relative grid md:grid-cols-[4fr_7fr] md:gap-x-6 xl:gap-x-6 2xl:gap-x-10 md:gap-y-8 auto-rows-auto md:mt-10 mb-40">
             <div>
-              <header className="pb-8 text-[0.875rem]">About the Studio</header>
-              <p className="text-[0.875rem] mb-10">
-                {/* T. 845 421 2078 */}
-                <br />
-                {/* <a className="underline" href="mailto:pengtrym@gmail.com">
-                  pengtrym@gmail.com
-                </a> */}
-              </p>
+              <header className="text-[0.875rem]">About the Studio</header>
             </div>
             <div>
               <div className="space-y-16">
@@ -56,7 +49,7 @@ const About: React.FC = memo(() => {
                   <div className="flex flex-wrap gap-4">
                     <button
                       onClick={() => dispatch(setFocusArea('works'))}
-                      className="px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-semibold rounded hover:opacity-90 transition-opacity"
+                      className="px-6 py-3 bg-black dark:bg-white !text-white dark:!text-black font-semibold rounded hover:opacity-90 transition-opacity"
                     >
                       See Our Work
                     </button>
