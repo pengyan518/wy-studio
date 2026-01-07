@@ -77,7 +77,7 @@ const About: React.FC = memo(() => {
                       Our studio was born from a simple belief: Great software is an art form.
                     </p>
                     <p>
-                      Founded by an artist-turned-engineer and a tech visionary, Studio Name is not your typical dev shop. We don’t just write code; we obsess over details, user experience, and visual aesthetics.
+                      Founded by an artist-turned-engineer and a tech visionary, W&Y Studio is not your typical dev shop. We don’t just write code; we obsess over details, user experience, and visual aesthetics.
                     </p>
                     <p>
                       We realized that the best digital products happen when design sensibility meets engineering rigor. That’s why we exist. We build systems that are powerful under the hood and beautiful on the surface—delivering the perfect balance of form and function.
