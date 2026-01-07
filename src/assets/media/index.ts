@@ -40,7 +40,7 @@ export const theaters = [
     src: img1,
     caption: 'Mobile Checkout Page',
     url: 'https://tickets.shenyun.com/shenyun-2026-new-york',
-    description: 'Vite, Vue, pinia, Tailwind CSS, Styled-Components',
+    description: 'Vite, Vue, Pinia, Tailwind CSS',
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/v9mFF9eqfDQ?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
@@ -138,7 +138,7 @@ export const theaters = [
     src: sc,
     caption: 'Ticketing Box Seating Chart by Canvas(desktop)',
     url: 'https://tickets.shenyun.com/event/schedule/shenyun-2025-san-jose-2024-12-26-7pm/',
-    description: 'jQuery, Sass, Postcss',
+    description: 'HTML Canvas API, jQuery, Sass, Postcss',
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/xOssXAfWk3g?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
