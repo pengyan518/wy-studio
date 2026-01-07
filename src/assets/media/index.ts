@@ -44,42 +44,42 @@ export const theaters = [
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/4seoE8ICgKo?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
-  {
-    id: '2',
-    src: sycom,
-    caption: 'Shen Yun Homepage',
-    description: 'React, Redux, Tailwind CSS, Styled-Components',
-    url: 'https://www.shenyun.com',
-    videoEmbed:
-      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/fQCdr6gYdv0?autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-  },
-  {
-    id: '3',
-    src: ntsy,
-    caption: 'New to Shen Yun Page',
-    description: 'React, Redux, Tailwind CSS, Styled-Components',
-    url: 'https://www.shenyun.org/what-is-shen-yun',
-    videoEmbed:
-      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/sAMbz8aSGsk?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-  },
-  {
-    id: '4',
-    src: music,
-    caption: 'Shen Yun Music Page',
-    description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
-    url: 'https://promo.shenyun.com/shen-yun-music/',
-    videoEmbed:
-      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/WluJ75xg_Ac?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-  },
-  {
-    id: '5',
-    src: videoPage,
-    caption: 'Shen Yun Videos Page',
-    description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
-    url: 'https://www.shenyun.org/videos',
-    videoEmbed:
-      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/yzIvbGq4L94?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-  },
+  // {
+  //   id: '2',
+  //   src: sycom,
+  //   caption: 'Shen Yun Homepage',
+  //   description: 'React, Redux, Tailwind CSS, Styled-Components',
+  //   url: 'https://www.shenyun.com',
+  //   videoEmbed:
+  //     '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/fQCdr6gYdv0?autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  // },
+  // {
+  //   id: '3',
+  //   src: ntsy,
+  //   caption: 'New to Shen Yun Page',
+  //   description: 'React, Redux, Tailwind CSS, Styled-Components',
+  //   url: 'https://www.shenyun.org/what-is-shen-yun',
+  //   videoEmbed:
+  //     '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/sAMbz8aSGsk?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  // },
+  // {
+  //   id: '4',
+  //   src: music,
+  //   caption: 'Shen Yun Music Page',
+  //   description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
+  //   url: 'https://promo.shenyun.com/shen-yun-music/',
+  //   videoEmbed:
+  //     '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/WluJ75xg_Ac?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  // },
+  // {
+  //   id: '5',
+  //   src: videoPage,
+  //   caption: 'Shen Yun Videos Page',
+  //   description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
+  //   url: 'https://www.shenyun.org/videos',
+  //   videoEmbed:
+  //     '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/yzIvbGq4L94?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  // },
   // {
   //   id: '6',
   //   src: mediaLibrary,
