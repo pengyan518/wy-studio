@@ -46,8 +46,8 @@ const Body: React.FC = () => {
   return (
     <>
       <div className="bg-white dark:bg-slate-900">
-        <header className="flex px-12 py-12 md:py-16 text-slate-500">
-          <div className="!absolute h-9 w-9 right-4 md:right-10 top-4 md:top-10 cursor-pointer" onClick={handelClose}>
+        <header className="flex px-12 py-12 md:py-10 text-slate-500">
+          <div className="!absolute h-9 w-9 right-4 md:right-10 top-4 md:top-6 cursor-pointer" onClick={handelClose}>
             {/*  @ts-ignore */}
             <Close className="h-9 w-9 text-slate-700 ml-2 mt-1 dark:text-slate-400" viewBox="0 0 16 16" />
           </div>
@@ -59,7 +59,7 @@ const Body: React.FC = () => {
             {load && <Loading height={loadingHeight} width="100%" color="#1976d2" className="top-0" />}
           </div>
         )}
-        <div className="mx-auto md:w-9/12 pt-14 md:p-14 text-center">
+        <div className="mx-auto px-4 md:w-9/12 pt-14 md:p-14 text-center">
           <header className="font-black text-sm uppercase text-gray-600 dark:text-gray-300">{getContent.label || 'Framework'}:</header>
           <div className="font-medium uppercase text-sm my-4 text-slate-700 dark:text-slate-300" dangerouslySetInnerHTML={{__html: getContent.description}} />
           <div className="mx-auto w-7/12">
