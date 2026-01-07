@@ -28,7 +28,7 @@ export const theaters = [
   {
     id: '0',
     src: img2,
-    caption: 'My Own SaaS Project(Not Yet Released)',
+    caption: 'Our Own SaaS Project(MVP)',
     // url: 'https://tickets.shenyun.com/shenyun-2026-new-york',
     description: 'A full-stack application built with Next.js and FastAPI that allows users to generate images from text prompts. <br>Challenge: Handling high-latency AI generation requests (10-30s) while keeping the user engaged. •	Solution: Implemented an async workflow with real-time status updates, optimistic UI, and a robust credit system via Stripe.',
     label: 'Technology stack',
